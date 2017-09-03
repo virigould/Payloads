@@ -9,6 +9,12 @@
 # Colors.... later
 
 LED SETUP
+
+LOOTDIR=/root/udisk/loot/Root
+mkdir -p $LOOTDIR
+SWITCHDIR=/root/udisk/paylaods/$SWITCH_POSITION
+mkdir -p $SWITCHDIR/loot
+
 ATTACKMODE HID
 
 RUN WIN powershell -c "Start-Process cmd -verb runas"
